@@ -1,0 +1,103 @@
+.nav {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    padding: 6px 100px;
+    background-color: aliceblue;
+}
+
+.nav h2 {
+    font-size: 30px;
+}
+
+.link {
+    /* display: flex; */
+    align-items: flex-end;
+    justify-content: end;
+    margin-left: auto;
+}
+
+.nav a {
+    color: rgb(0, 86, 156);
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
+/* home section */
+
+.home {
+    display: flex;
+    padding: 30px 100px;
+    height: 77vh;
+}
+
+.home .home_left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+
+.home .home_right {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+/* about */
+
+
+.about {
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+    height: 77vh;
+}
+
+.about_left {
+    width: 50%;
+}
+
+.about_right {
+    margin-left: 50px;
+    width: 50%;
+}
+
+img {
+    width: 100%;
+    height: 100% !important;
+}
+
+/* footer */
+
+
+.footer {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill {
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.skill-portion {
+    padding: 30px 100px;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+}
+
+.skill-portion ul {
+    margin: 0;
+}
+
+.about {
+    height: 100vh;
+}
